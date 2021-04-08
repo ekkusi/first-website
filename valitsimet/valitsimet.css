@@ -1,0 +1,45 @@
+p:first-letter {
+  font-size: 2em;
+}
+p#eri {
+  background-color: silver;
+}
+p strong {
+  color: red;
+}
+strong {
+  color: green;
+}
+div p strong {
+  color: yellow;
+}
+td {
+  background-color: #000000;
+}
+
+td + td {
+  background-color: #555555;
+}
+
+td + td + td {
+  background-color: #000000;
+}
+
+td + td + td +td {
+  background-color: #555555;
+}
+th {
+  color: black;
+}
+tr + tr {
+  color: yellow;
+}
+tr + tr + tr {
+  color: white;
+}
+a[title="orci"] {
+  color: green;
+}
+p:first-child {
+  border: 1px solid black;
+}

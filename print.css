@@ -1,0 +1,17 @@
+body {
+  margin-top: 0.5cm;
+  margin-left: 0.5cm;
+  margin-right: 0.5cm;
+  margin-bottom: 0.5cm;
+}
+.navbartop, .navbar {
+  display: none;
+}
+h1, h2, h3, h4 {
+  page-break-inside: avoid;
+  page-break-after: avoid;
+}
+.kuva {
+  page-break-inside: avoid;
+  float: none;
+}

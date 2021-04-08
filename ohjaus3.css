@@ -1,0 +1,159 @@
+body {
+  background-color: #ed8080;
+  color: black;	
+  font-family: Verdana, Arial, "Trebuchet MS", sans-serif;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  line-height: 150%;
+}
+h1 { 
+  margin-left: 1em;
+  margin-right: 1em;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+}
+h2 { 
+  margin-left: 1em;
+  margin-right: 1em;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+}
+p { 
+  margin-left: 1em;
+  margin-right: 1em;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+}
+.navbar {
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+  width: 12%;
+  float: right;
+  background-color: #D69C52;
+  color: black;
+}
+.navbar ul {
+  margin-left: 1em;
+  padding-left: 0.5em;
+}
+.navbartop {
+ border: 1px solid black;
+ background-color: #D69C52;
+ color: white;
+ padding-left: 0.5em;
+}
+.navbartop ul li {
+  display: inline;
+  border-left: 1px solid black;
+  margin-left: 0.5em;
+  padding-left: 0.5em;
+}
+.navbartop ul li img {
+  vertical-align: middle;
+  border: 0;
+}
+.navbartop ul {
+  margin-left: 0;
+  padding-left: 0;
+}
+.navbartop ul li:first-child {
+  border-left: 0;
+  margin-left: 0;
+  padding-left: 0;
+}
+a:link {
+  color: blue;
+}
+a:visited {
+  color: purple;
+}
+a:hover {
+  background-color: #D69C52;
+  color: white;
+}
+.navbartop a:link, .navbar a:link {
+  text-decoration: none;
+  color: #6076e5;
+}
+.navbartop a:visited, .navbar a:visited {
+  color: #002489;
+}
+.navbar a:hover {
+  color: white;
+  background-color: #5961ff;
+}
+.kuva {
+  float: right;
+  margin-right: 3em;
+  margin-left: 3em;
+}
+td {
+  border-style: solid;
+  border-width: thin;
+  border-color: black;
+  padding: 0.2em 0.3em;
+  text-align: left;
+}
+th {
+  border-style: solid;
+  border-width: thin;
+  border-color: black;
+  background-color: #ffa749;
+  text-align: center;
+  padding: 0.2em 0.3em;
+}
+.eka {
+background-color: #ffa749;
+text-align: center;
+}
+table {
+  border-style: solid;
+  border-width: 2px;
+  border-color: grey;
+  border-spacing: 4px
+}
+caption {
+  font-family: Arial, "Trebuchet MS", sans-serif;
+  font-size: 1.5em;
+  margin-bottom: 0.3em;
+}
+.galleriakuva {
+  float: left;
+  width: 260px;
+  height: 240px;
+  text-align: center;
+  clear: right;
+}
+div p {
+  height: 1.5em;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-size: 0.95em;
+}
+.clear {
+  clear: left;
+}
+.clear2 {
+  clear: both;
+}
+.flex {
+ display: flex;
+ flex-wrap: wrap;
+}
+.flex div p {
+  height: 1.5em;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-size: 0.95em;
+}
+.flex div {
+  float: left;
+  width: 260px;
+  height: 240px;
+  text-align: center;
+}
